@@ -1,12 +1,22 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_fibonacci.c                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: msamoile <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/02/23 09:55:20 by msamoile          #+#    #+#             */
+/*   Updated: 2021/02/23 13:24:01 by msamoile         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 int ft_fibonacci(int index)
 {
-	int leo;
-
-	i = 0;
 	if (index < 0)
 		return (-1);
-	if (i >= 0)
-		return (leo(index - 1) + leo(index - 2);
+	if (index <= 1)
+		return (index);
+	return (ft_fibonacci(index - 1) + ft_fibonacci(index - 2));
 }
 
 #include <stdio.h>
