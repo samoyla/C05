@@ -6,7 +6,7 @@
 /*   By: msamoile <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/23 10:21:06 by msamoile          #+#    #+#             */
-/*   Updated: 2021/02/23 11:47:03 by msamoile         ###   ########.fr       */
+/*   Updated: 2021/02/24 10:53:22 by msamoile         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,11 +21,4 @@ int	ft_sqrt(int nb)
 		return (i);
 	else
 		return (0);
-}
-
-#include <stdio.h>
-
-int	main()
-{
-	printf("%d\n", ft_sqrt(25));
 }

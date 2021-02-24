@@ -6,7 +6,7 @@
 /*   By: msamoile <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/22 13:48:10 by msamoile          #+#    #+#             */
-/*   Updated: 2021/02/23 13:29:57 by msamoile         ###   ########.fr       */
+/*   Updated: 2021/02/24 10:47:49 by msamoile         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,12 +25,4 @@ int	ft_iterative_power(int nb, int power)
 		power--;
 	}
 	return (result);
-}
-
-#include <stdio.h>
-
-int	main()
-{
-	printf("%d\n", ft_iterative_power(5, 2));
-	return (0);
 }
